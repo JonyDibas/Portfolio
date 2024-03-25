@@ -10,13 +10,16 @@
     position: sticky;
     top: 0;
     z-index: 3;
+    background-color: #222831;
 
 }
+
 .logo {
     object-fit: cover;
     height: 7rem;
     width: 8rem;
     margin-top: 2rem;
+    background-color: orangered;
 }
 
 .desktopMenuListItem {
@@ -25,7 +28,7 @@
 }
 
 .desktopMenuListItem:hover {
-    color: black ;
+    color: black;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid black
 }
@@ -38,4 +41,3 @@
     align-items: center;
     justify-content: center;
 }
-

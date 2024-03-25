@@ -1,0 +1,43 @@
+#intro {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+    margin: 2rem 2rem;
+}
+
+.introContent {
+    font-size: 1.2em;
+    width: 70%;
+    height: 10em;
+    padding: 1rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.introName {
+    padding: 0.5em;
+    color: blue;
+    font-size: 2em;
+}
+
+.introText {
+    background-color: chocolate;
+    font-size: 1.2em;
+}
+
+.introPara {
+
+}
+
+.selfie {
+    background-color: green;
+    z-index: 1;
+}
+
+.selfie {
+    width: 250px;
+    height: 250px;
+}

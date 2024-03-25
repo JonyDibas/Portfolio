@@ -1,0 +1,42 @@
+#skillsContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.title {
+padding: 2rem;
+}
+
+.skills {
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+  background-color: violet;
+  padding: 3em;
+  width: 90%;
+}
+
+.cards {
+  width: 90%;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill {
+  display: flex;
+}

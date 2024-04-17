@@ -2,39 +2,47 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-bottom: 4em;
+
 }
 
 .title {
-padding: 2rem;
+  font-size: 2em;
+  color: #EEEEEE;
+  padding: 1rem;
 }
 
 .skills {
   width: 100vw;
-  max-width: 75rem;
-  margin: 0 auto;
-  padding: 1rem 2rem;
+  max-width: 70rem;
+  padding: 3rem 3rem;
+  border-radius: 2em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: stretch;
-  background-color: violet;
-  padding: 3em;
-  width: 90%;
+  background-color: #76ABAE;
+
 }
 
 .cards {
-  width: 90%;
-  border: 1px solid #000000;
-  border-radius: 5px;
+  width: 100vw;
+  border: 1em solid #222831;
+  border-radius: 2em;
+  margin: 1rem 1rem 1rem 1rem;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(1, 1, 1, 1);
+  background-color: #EEEEEE;
+}
+
+.cardTitle {
+  font-size: 1.7em;
+  margin-bottom: 2em;
 }
 
 .cardContent {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #222831;
+  padding: 2em;
 }
 
 .skill {

@@ -3,37 +3,38 @@
     justify-content: space-evenly;
     padding: 2em;
     margin: 2rem 2rem;
+    margin-bottom: 4em;
 }
 
 .introContent {
-    font-size: 1.2em;
+    font-size: 1.3em;
     width: 70%;
     height: 10em;
     padding: 1rem;
-    background-color: red;
     display: flex;
     flex-direction: column;
-    
-    
+
+}
+
+.hello {
+    font-size: 2em;
+    color: #76ABAE;
 }
 
 .introName {
     padding: 0.5em;
-    color: blue;
+    color: #76ABAE;
     font-size: 2em;
 }
 
 .introText {
-    background-color: chocolate;
     font-size: 1.2em;
+    color: #EEEEEE
 }
 
-.introPara {
 
-}
 
 .selfie {
-    background-color: green;
     z-index: 1;
 }
 

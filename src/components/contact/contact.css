@@ -5,10 +5,15 @@
     align-items: center;
 }
 
+.contactTitle {
+    color: #EEEEEE
+}
+
 .contactDesc {
     padding: 1rem;
     font-size: medium;
     font-weight: 300;
+    color: #EEEEEE;
 }
 
 .contactForm {
@@ -27,14 +32,13 @@
     max-width: 40rem;
     margin: 0.5rem;
     padding: 0.5rem 1rem;
-    color: white;
     border: none;
     border-radius: 0.5rem;
-    background-color: chartreuse;
+    background-color: #EEEEEE;
 }
 
 .submitBtn {
-    background-color: aquamarine;
+    background-color: #76ABAE;
     border: none;
     border-radius: 0.5rem;
     margin: 2rem;
@@ -42,14 +46,14 @@
 }
 
 .links {
+    color: #222831;
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
 }
 
 .link {
+    padding: 0.7em;
+    font-size: 2em;
+    color: #EEEEEE;
     object-fit: cover;
-    height: 3rem;
-    width: 3rem;
-    margin: 0 0.75rem;
 }

@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -18,8 +17,10 @@ function Contact() {
                 <textarea className='msg' name='message' rows='5' placeholder='Your Message' />
                 <button type='submit' value='Send' className='submitBtn'>Submit</button>
                 <div className='links'>
-                    <a href="/proximamente">
+                    <a className='link' href="https://wa.me/2223426742" target="_blank">
                         <FontAwesomeIcon icon={faWhatsapp} />
+                    </a>
+                    <a className='link' href="https://www.linkedin.com/in/jonathan-di-bastiano/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
                 </div>

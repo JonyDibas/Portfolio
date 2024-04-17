@@ -26,7 +26,7 @@ const skills = () => {
             <div className="skills">
                 <div className="cards">
                     <div className="cardContent">
-                    <h2>Technic</h2>
+                    <h2 className="cardTitle">Technic</h2>
                         <h3> <img src={linuxLogo} alt="linux" className='Logo' /></h3>
                         <h3> <img src={windowsLogo} alt="windows" className='Logo' /></h3>
                         <h3> <img src={iosLogo} alt="ios" className='Logo' /></h3>
@@ -39,7 +39,7 @@ const skills = () => {
                 </div>
                 <div className="cards">
                     <div className="cardContent">
-                    <h2>Programmer </h2>
+                    <h2 className="cardTitle">Programmer </h2>
                         <h3> <img src={reactLogo} alt="react" className='Logo' /></h3>
                         <h3> <img src={angularLogo} alt="angular" className='Logo' /></h3>
                         <h3> <img src={jsLogo} alt="js" className='Logo' /></h3>
@@ -50,7 +50,7 @@ const skills = () => {
                 </div>
                 <div className="cards">
                     <div className="cardContent">
-                    <h2>Desing</h2>
+                    <h2 className="cardTitle">Desing</h2>
                         <h3> <img src={psLogo} alt="photoshop" className='Logo' /></h3>
                         <h3> <img src={illustratorLogo} alt="illustrator" className='Logo' /></h3>
                     </div>
